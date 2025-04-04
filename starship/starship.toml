@@ -1,0 +1,26 @@
+add_newline = false
+
+[username]
+style_user = "bold green"
+style_root = "bold red"
+format = "[$user]($style) "
+
+[hostname]
+style = "dimmed blue"
+format = "on [$hostname]($style) "
+
+[directory]
+style = "cyan"
+truncation_length = 3
+truncation_symbol = "…/"
+
+[git_branch]
+symbol = "🌱 "
+style = "yellow"
+
+[git_status]
+style = "red"
+
+[nodejs]
+symbol = "⬢ "
+style = "bold green"
