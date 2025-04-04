@@ -51,6 +51,7 @@ nodenv global 20.11.1
 echo -e "${GREEN}Creating Starship config directory...${NC}"
 mkdir -p "$HOME/.config"
 
+mv ~/.gitconfig ~/.gitconfig.bak
 echo -e "${GREEN}Linking dotfiles with Stow...${NC}"
 cd "$HOME/dotfiles"
 stow */
